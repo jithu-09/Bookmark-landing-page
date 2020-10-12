@@ -37,3 +37,174 @@ Some library suggestions can be found below:
 - [Font Awesome](https://fontawesome.com)
 - [IcoMoon](https://icomoon.io)
 - [Ionicons](https://ionicons.com)
+
+    body{
+      font-family: 'Rubik', sans-serif;
+      font-size: 18px;
+    }
+    #header .nav-link:hover{
+    	color: hsl(0, 94%, 66%) !important;
+    }
+    .butn4{
+    	background: hsl(0, 94%, 66%);
+    	color: white;
+    }
+    .butn4:hover{
+    	color: hsl(0, 94%, 66%) !important;
+    	border-color: hsl(0, 94%, 66%) !important;
+    	background-color: white !important;
+    }
+    .butn2{
+    	background: hsl(231, 69%, 60%);
+    	color: white; 
+    }
+    .butn2:hover{
+    	border-color: hsl(231, 69%, 60%) !important;
+    	color: hsl(231, 69%, 60%) !important;
+    	background: white !important;
+    }
+    .butn3{
+    	background: white;
+    	color: black;
+    }
+    .butn3:hover{
+    	border-color: rgb(67,71,74) !important;
+    	color: rgb(67,71,74) !important;
+    	background: white !important;
+    }
+    .butn1{
+    	font-size: 14px;
+    	background: hsl(231, 69%, 60%);
+    }
+    .butn1:hover{
+    	color: hsl(231, 69%, 65%) !important;
+    	border-color: hsl(231, 69%, 65%) !important;
+    	background: white !important;
+    }
+    .navbar a{
+    	display: block;
+    	color: black;
+    	text-align: center;
+    	text-decoration: none;
+    	font-size: 18px;
+    	border-bottom: 3px solid rgb(219,219,219);
+    }
+    .navbar a:hover{
+    	border-bottom: 3px solid hsl(0, 94%, 66%);
+    }
+    .navmid a{
+    	font-size: 16px;
+    }
+    .log-img{
+    	display: block;
+    	width:100%;
+    	margin-left: auto;
+    	margin-right: auto;
+    }
+    .text-al{
+    	text-align: left !important;
+    }
+    .faqs .text-al:hover{
+    	color: hsl(0, 94%, 66%);
+    }
+    .fa{
+    	font-size: 20px;
+    }
+    .fa:hover{
+    	cursor: pointer;
+    	color: hsl(0, 94%, 66%);
+    }
+    #demo1,#demo2,#demo3,#demo4{
+    	font-size: 15px;
+    }
+    .butn5{
+    	display: block;
+    	margin-right: auto;
+    	margin-left: auto;
+    	color: white;
+    	background: hsl(231, 69%, 60%);
+    	font-size: 14px; 
+    }
+    .butn5:hover{
+    	border-color: hsl(231, 69%, 60%) !important;
+    	color: hsl(231, 69%, 60%) !important;
+    	background: white !important;
+    }
+    .butn6{
+    	display: block;
+    	color: white;
+    	background: hsl(231, 69%, 60%);
+    	font-size: 14px; 
+    }
+    .butn6:hover{
+    	border-color: hsl(231, 69%, 60%) !important;
+    	color: hsl(231, 69%, 60%) !important;
+    	background: white !important;
+    }
+    .foot-1{
+    	background: hsl(231, 69%, 60%);
+    	color: white;
+    }
+    .foot-2{
+    	background:hsl(229, 8%, 60%); 
+    	color:white;
+    }
+    .foot-2 a{
+    	text-decoration: none;
+    	color: white;
+    }
+    .foot-2 a:hover{
+    	color: hsl(0, 94%, 66%) !important;
+    }
+    .foot-2 .fa:hover{
+    	color: hsl(0, 94%, 66%) !important;	
+    }
+    .brow-card-1{
+    	margin-top: 5%;
+    }
+    .brow-card-2{
+    	margin-top: 10%;
+    }
+    @media(max-width: 768px){
+    	.hero-img{
+    		width: 50%;
+    		margin-right: auto;
+    		margin-left: auto;
+    	}
+    	.footfrm{
+    		display: block;
+    		margin-left: auto;
+    		margin-right: auto;
+    	}
+    	.footbtn{
+    		display: block;
+    		width: 100%;
+    		margin-top: 1rem;
+    		margin-left: auto;
+    		margin-right: auto;
+    	}
+    	.brow-card,.brow-card-1,.brow-card-2{
+    		margin-left: auto;
+    		margin-right: auto;
+    	}
+    	.butn6{
+    		margin-left: auto !important;
+    		margin-right: auto !important;
+    	}
+    	.descrp{
+    		text-align: center !important;
+    	}
+    	.butn{
+    		display: inline-block;
+    	}
+    	.navdiv{
+    		justify-content: space-between !important;
+    		align-items: center;
+    	}
+    	.butn4{
+    		display: block;
+    	}
+    	li{
+    		display: block;
+    	}
+    }
