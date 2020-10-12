@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <!-- icon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- bootstap link -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+  <!-- font awesome -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- custom css -->
+  <link rel="stylesheet" type="text/css" href="../style.css">
+  
+  <title>Skill Safari | Bookmark landing page</title>
+ <style type="text/css">
+ 	body{
+	font-family: 'Rubik', sans-serif;
+	font-size: 18px;
+    }
+    #header .nav-link:hover{
+    	color: hsl(0, 94%, 66%) !important;
+    }
+    .butn4{
+    	background: hsl(0, 94%, 66%);
+    	color: white;
+    }
+    .butn4:hover{
+    	color: hsl(0, 94%, 66%) !important;
+    	border-color: hsl(0, 94%, 66%) !important;
+    	background-color: white !important;
+    }
+    .butn2{
+    	background: hsl(231, 69%, 60%);
+    	color: white; 
+    }
+    .butn2:hover{
+    	border-color: hsl(231, 69%, 60%) !important;
+    	color: hsl(231, 69%, 60%) !important;
+    	background: white !important;
+    }
+    .butn3{
+    	background: white;
+    	color: black;
+    }
+    .butn3:hover{
+    	border-color: rgb(67,71,74) !important;
+    	color: rgb(67,71,74) !important;
+    	background: white !important;
+    }
+    .butn1{
+    	font-size: 14px;
+    	background: hsl(231, 69%, 60%);
+    }
+    .butn1:hover{
+    	color: hsl(231, 69%, 65%) !important;
+    	border-color: hsl(231, 69%, 65%) !important;
+    	background: white !important;
+    }
+    .navbar a{
+    	display: block;
+    	color: black;
+    	text-align: center;
+    	text-decoration: none;
+    	font-size: 18px;
+    	border-bottom: 3px solid rgb(219,219,219);
+    }
+    .navbar a:hover{
+    	border-bottom: 3px solid hsl(0, 94%, 66%);
+    }
+    .navmid a{
+    	font-size: 16px;
+    }
+    .log-img{
+    	display: block;
+    	width:100%;
+    	margin-left: auto;
+    	margin-right: auto;
+    }
+    .text-al{
+    	text-align: left !important;
+    }
+    .faqs .text-al:hover{
+    	color: hsl(0, 94%, 66%);
+    }
+    .fa{
+    	font-size: 20px;
+    }
+    .fa:hover{
+    	cursor: pointer;
+    	color: hsl(0, 94%, 66%);
+    }
+    #demo1,#demo2,#demo3,#demo4{
+    	font-size: 15px;
+    }
+    .butn5{
+    	display: block;
+    	margin-right: auto;
+    	margin-left: auto;
+    	color: white;
+    	background: hsl(231, 69%, 60%);
+    	font-size: 14px; 
+    }
+    .butn5:hover{
+    	border-color: hsl(231, 69%, 60%) !important;
+    	color: hsl(231, 69%, 60%) !important;
+    	background: white !important;
+    }
+    .butn6{
+    	display: block;
+    	color: white;
+    	background: hsl(231, 69%, 60%);
+    	font-size: 14px; 
+    }
+    .butn6:hover{
+    	border-color: hsl(231, 69%, 60%) !important;
+    	color: hsl(231, 69%, 60%) !important;
+    	background: white !important;
+    }
+    .foot-1{
+    	background: hsl(231, 69%, 60%);
+    	color: white;
+    }
+    .foot-2{
+    	background:hsl(229, 8%, 60%); 
+    	color:white;
+    }
+    .foot-2 a{
+    	text-decoration: none;
+    	color: white;
+    }
+    .foot-2 a:hover{
+    	color: hsl(0, 94%, 66%) !important;
+    }
+    .foot-2 .fa:hover{
+    	color: hsl(0, 94%, 66%) !important;	
+    }
+    .brow-card-1{
+    	margin-top: 5%;
+    }
+    .brow-card-2{
+    	margin-top: 10%;
+    }
+    @media(max-width: 768px){
+    	.hero-img{
+    		width: 50%;
+    		margin-right: auto;
+    		margin-left: auto;
+    	}
+    	.footfrm{
+    		display: block;
+    		margin-left: auto;
+    		margin-right: auto;
+    	}
+    	.footbtn{
+    		display: block;
+    		width: 100%;
+    		margin-top: 1rem;
+    		margin-left: auto;
+    		margin-right: auto;
+    	}
+    	.brow-card,.brow-card-1,.brow-card-2{
+    		margin-left: auto;
+    		margin-right: auto;
+    	}
+    	.butn6{
+    		margin-left: auto !important;
+    		margin-right: auto !important;
+    	}
+    	.descrp{
+    		text-align: center !important;
+    	}
+    	.butn{
+    		display: inline-block;
+    	}
+    	.navdiv{
+    		justify-content: space-between !important;
+    		align-items: center;
+    	}
+    	.butn4{
+    		display: block;
+    	}
+    	li{
+    		display: block;
+    	}
+    }
+ </style>
+
+</head>
+<body>
+<header id="header" class="pt-4">
+	<div class="container">
+	  <div class="row">
+		<div class="col-sm-4 col-md-3 mt-3 mx-auto hero-img">
+			<img src="C:\Users\SRIDHAR\Desktop\Bookmark-landing-page\images\logo-bookmark.svg" class="img-fluid">
+		</div>
+		<div class="col-sm-8 col-md-7 mx-auto mt-2">
+			<nav class="navbar-expand-md navdiv">
+					<img src="C:\Users\SRIDHAR\Desktop\Bookmark-landing-page\images\icon-hamburger.svg" class="img-fluid butn navbar-toggler" type="button" data-target="#menu" data-toggle="collapse">
+					<div id="menu" class="collapse navbar-collapse">
+						<ul class="navbar-nav w-100 justify-content-end">
+							<li class="">
+								<a href="#" class="nav-link mx-auto text-dark text-center">Features</a>
+							</li>
+							<li class="">
+								<a href="#" class="nav-link mx-auto text-dark text-center">Pricing</a>
+							</li>
+							<li class="">
+								<a href="#" class="nav-link mx-auto text-dark text-center">Contact</a>
+							</li>
+							<li class="">
+								<a href="#" class="btn butn4 mx-auto">Login</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+		</div>
+	  </div>
+	  <div class="row justify-content-between mt-5">
+	  	<div class="col-md-6 mx-auto">
+	  		<h1>A Simple Bookmark Manager</h1>
+	  		<p>A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+	  		<br>
+	  		<div class="row col-sm-12 col-md-12">
+	   		  	<button class="btn butn2 btn-md mr-auto shadow">Get it on Chrome</button> 
+	  			<button class="btn butn3 btn-md mx-auto shadow">Get it on Firefox</button>
+	  		 </div>
+	  	</div>
+	  	<div class="col-md-5 mt-3">
+	  		<img src="C:\Users\SRIDHAR\Desktop\Bookmark-landing-page\images\illustration-hero.svg" class="img-fluid">
+	  	</div>
+	  </div>
+	</div>
+</header>
+<section id="features">
+  <div class="container">
+	<br><br><br><br><br>
+	<div class="row col-md-6 mx-auto">
+		<h3 class="text-center mx-auto">Features</h3>
+		<p class="text-center">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+	</div>
+	<br><br><br>	
+	  <div id="mygroup">
+	    <div class="row col-sm-12 col-md-8 navbar navbar-expand-md mx-auto">
+			<ul class="navbar-nav mx-auto navmid">
+				<li>
+					<a href="#" class="nav-link mx-auto p-4" data-toggle="collapse" data-target="#bookmarking">Simple Bookmarking</a>
+				</li>
+				<li>
+					<a href="#" class="nav-link mx-auto p-4" data-toggle="collapse" data-target="#searching">Speedy Searching</a>	
+				</li>
+				<li>
+					<a href="#" class="nav-link mx-auto p-4" data-toggle="collapse" data-target="#sharing">Easy Sharing</a>	
+				</li>
+			</ul>
+		</div>	
+		<div class="row col-sm-12 col-md-12 collapse show mt-5" id="bookmarking" data-parent="#mygroup">
+			<div class="col-sm-10 col-md-5 mx-auto">
+				<img src="C:\Users\SRIDHAR\Desktop\Bookmark-landing-page\images\illustration-features-tab-1.svg" class="img-fluid">
+			</div>
+			<div class="col-sm-10 col-md-5 mx-auto mt-3 descrp">
+				<h3>Bookmark in one click</h3>
+				<p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+				<button class="btn btn-lg butn6 mt-5">More Info</button>
+			</div>
+		</div>
+		<div class="row col-sm-12 col-md-12 collapse mt-5" id="searching" data-parent="#mygroup">
+			<div class="col-sm-10 col-md-5 mx-auto">
+				<img src="C:\Users\SRIDHAR\Desktop\Bookmark-landing-page\images\illustration-features-tab-2.svg" class="img-fluid">
+			</div>
+			<div class="col-sm-10 col-md-5 mx-auto mt-3 descrp">
+				<h3>Intelligent search</h3>
+				<p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+				<button class="btn btn-lg butn6 mt-5">More Info</button>
+			</div>
+		</div>
+		<div class="row col-sm-12 col-md-12 collapse mt-5" id="sharing" data-parent="#mygroup">
+			<div class="col-sm-10 col-md-5 mx-auto">
+				<img src="C:\Users\SRIDHAR\Desktop\Bookmark-landing-page\images\illustration-features-tab-3.svg" class="img-fluid">
+			</div>
+			<div class="col-sm-10 col-md-5 mx-auto mt-3 descrp">
+				<h3>Share your bookmarks</h3>
+				<p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+				<button class="btn btn-lg butn6 mt-5">More Info</button>
+			</div>
+		</div>
+	  </div>	
+	<br><br><br><br>
+	<div class="row col-md-6 mx-auto">
+		<h3 class="text-center mx-auto">Download the extension</h3>
+		<p class="text-center">We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd likeus to prioritize</p>
+	</div>
+	<div class="row mt-5">
+		<div class="col-sm-8 col-md-4 ml-auto brow-card">
+			<div class="card shadow">
+				<div class="card-body">
+					<img src="C:\Users\SRIDHAR\Desktop\Bookmark-landing-page\images\logo-chrome.svg" class="img-fluid mx-auto d-flex justify-content-between align-items-center">
+					<h5 class="text-center mt-4">Add to Chrome</h5>
+					<p class="text-center">Minimum version 62</p>
+					<img src="C:\Users\SRIDHAR\Desktop\Bookmark-landing-page\images\bg-dots.svg" class="img-fluid log-img">
+					<button class="btn butn1 d-block text-light p-2 mx-auto shadow mt-3">Add & Install Extension</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-8 col-md-4 brow-card-1">
+			<div class="card shadow">
+				<div class="card-body">
+					<img src="C:\Users\SRIDHAR\Desktop\Bookmark-landing-page\images\logo-firefox.svg" class="img-fluid mx-auto d-flex justify-content-between align-items-center">
+					<h5 class="text-center mt-4">Add to firefox</h5>
+					<p class="text-center">Minimum version 55</p>
+					<img src="C:\Users\SRIDHAR\Desktop\Bookmark-landing-page\images\bg-dots.svg" class="img-fluid log-img">
+					<button class="btn butn1 d-block text-light p-2 mx-auto shadow mt-3">Add & Install Extension</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-8 col-md-4 mr-auto brow-card-2">
+			<div class="card shadow">
+				<div class="card-body">
+					<img src="C:\Users\SRIDHAR\Desktop\Bookmark-landing-page\images\logo-opera.svg" class="img-fluid mx-auto d-flex justify-content-between align-items-center">
+					<h5 class="text-center mt-4">Add to Opera</h5>
+					<p class="text-center">Minimum version 46</p>
+					<img src="C:\Users\SRIDHAR\Desktop\Bookmark-landing-page\images\bg-dots.svg" class="img-fluid log-img">
+					<button class="btn butn1 d-block text-light p-2 mx-auto shadow mt-3">Add & Install Extension</button>
+				</div>
+			</div>
+		</div>
+	</div>
+  </div>	
+</section>
+<section id="FAQS">
+	<div class="container">
+		<div class="row">
+		  <div class="col-md-6 mx-auto mt-5">
+		    <br><br><br><br>	
+			<h3 class="text-center">Frequently Asked Questions</h3>
+			<p class="text-center mt-3">Here are some of the FAQs. If you have any other questions you'd like to be answered, please feel free to mail us.</p>
+			<hr class="mt-5">
+		  <div id="accordion">	
+			<div class="row col-md-12 mt-3 faqs d-flex justify-content-between align-items-center">
+				<p class="faq1 text-al align-middle mt-3">What is Bookmark?</p>
+				<i class="fa fa-angle-down" aria-hidden="true" class="icon-al" data-toggle="collapse" data-target="#demo1" aria-hidden="true" id="arrow" onclick="changeicon(this)"></i>
+				<div id="demo1" class="collapse text-justify ml-3" data-parent="#accordion">
+					<p>A <strong>Bookmark</strong> is a saved shortcut that directs your browser to a specific webpage. It stores the title,URL, and favicon of the corresponding page. Saving a bookmark allows you to easily acces your favourite locations on the web.</p>
+				</div>
+			</div>
+			<hr>
+			<div class="row col-md-12 mt-3 faqs d-flex justify-content-between align-items-center">
+				<p class="faq1 text-al align-middle mt-3">How can I request a new browser?</p>
+				<i class="fa fa-angle-down" aria-hidden="true" class="icon-al" data-toggle="collapse" data-target="#demo2" aria-hidden="true" id="arrow" onclick="changeicon(this)"></i>
+				<div id="demo2" class="collapse text-justify ml-3" data-parent="#accordion">
+					<p>A <strong>Bookmark</strong> is a saved shortcut that directs your browser to a specific webpage. It stores the title,URL, and favicon of the corresponding page. Saving a bookmark allows you to easily acces your favourite locations on the web.</p>
+				</div>
+			</div>
+			<hr>
+			<div class="row col-md-12 mt-3 faqs d-flex justify-content-between align-items-center">
+				<p class="faq1 text-al align-middle mt-3">Is there a mobile app?</p>
+				<i class="fa fa-angle-down" aria-hidden="true" class="icon-al" data-toggle="collapse" data-target="#demo3" aria-hidden="true" id="arrow" onclick="changeicon(this)"></i>
+				<div id="demo3" class="collapse text-justify ml-3" data-parent="#accordion">
+					<p>A <strong>Bookmark</strong> is a saved shortcut that directs your browser to a specific webpage. It stores the title,URL, and favicon of the corresponding page. Saving a bookmark allows you to easily acces your favourite locations on the web.</p>
+				</div>
+			</div>
+			<hr>
+			<div class="row col-md-12 mt-3 faqs d-flex justify-content-between align-items-center">
+				<p class="faq1 text-al align-middle mt-3">What about other Chromium browsers?</p>
+				<i class="fa fa-angle-down" aria-hidden="true" class="icon-al" data-toggle="collapse" data-target="#demo4" aria-hidden="true" id="arrow" onclick="changeicon(this)"></i>
+				<div id="demo4" class="collapse text-justify ml-3" data-parent="#accordion">
+					<p>A <strong>Bookmark</strong> is a saved shortcut that directs your browser to a specific webpage. It stores the title,URL, and favicon of the corresponding page. Saving a bookmark allows you to easily acces your favourite locations on the web.</p>
+				</div>
+			</div>
+			<hr>
+		  </div>	
+			<div class="col-md-4 mx-auto">
+				<button class="btn btn-lg butn5 mt-5">More Info</button>
+			</div>
+		  </div>	
+		</div>
+	</div>
+</section>
+<footer>
+	<br><br><br><br><br><br>
+	<div class="container-fluid foot-1">
+		<div class="row col-md-6 mx-auto p-4">
+		  <div class="col-md-12">
+		  	<p class="text-center">35,000+ ALREADY JOINED</p>
+			<h3 class="mt-3 text-center">Stay up-to-date with what we're doing</h3>	
+		  </div>	
+		  <div class="col-sm-12 col-md-8 mx-auto">
+			<input type="email" placeholder="Enter you email address" class="form-control footfrm mx-auto" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+		  </div>
+		  <div class="col-sm-12 col-md-4 mx-auto">
+		  	<input class="btn btn-md butn4 mx-auto footbtn" type="submit" value="Contact Us">
+		  </div>
+		</div>
+		<div class="row foot-2 p-3 d-flex flex-sm-column flex-md-row">
+			<div class="col-sm-8 col-md-6 mx-auto px-auto">
+				<nav class="navbar-nav navbar-expand-md mx-auto justify-content-between align-items-center">
+					<a href="#" class="my-auto"><img src="C:\Users\SRIDHAR\Desktop\Bookmark-landing-page\images\logo-bookmark.svg" class="img-fluid mx-auto"></a>
+					<a href="#" class="nav-link text-light mx-auto">Features</a>
+					<a href="#" class="nav-link text-light mx-auto">Pricing</a>
+					<a href="#" class="nav-link text-light mx-auto">Contact</a>
+				</nav>
+			</div>
+			<div class="col-sm-12 col-md-4"></div>
+			<div class="row col-sm-6 col-md-2 align-items-center mx-auto">
+				<a href="#" class="mx-auto"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+				<a href="#" class="mx-auto"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+			</div>
+	    </div>
+	</div>
+</footer>
+<!-- js -->
+<script type="text/javascript">
+	function changeicon(x) {
+		x.classList.toggle("fa-angle-up");
+	}
+</script>
+<!-- bootstrap js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
